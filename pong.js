@@ -33,12 +33,12 @@ let puntosParaGanar = 10;
 let juegoIniciado = false; 
 
 function preload() {
-  fondo = loadImage('../assets/images/fondo1.jpg');
-  barraJugador = loadImage('../assets/images/barra2.png');
-  barraComputadora = loadImage('../assets/images/barra1.png');
-  bola = loadImage('../assets/images/bola1.png');
-  sonidoRebote = loadSound('../assets/sounds/rebote.wav');
-  sonidoGol = loadSound('../assets/sounds/point.wav');
+  fondo = loadImage('fondo1.jpg');
+  barraJugador = loadImage('barra2.png');
+  barraComputadora = loadImage('barra1.png');
+  bola = loadImage('bola1.png');
+  sonidoRebote = loadSound('rebote.wav');
+  sonidoGol = loadSound('point.wav');
 }
 
 function setup() {

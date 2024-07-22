@@ -28,12 +28,12 @@ let sonidoRebote;
 let sonidoGol;
 
 function preload() {
-    fondo = loadImage('../assets/images/fondo1.png');
-    barraJugador = loadImage('../assets/images/barra1.png');
-    barraComputadora = loadImage('../assets/images/barra2.png');
-    bola = loadImage('../assets/images/bola.png');
-    sonidoRebote = loadSound('../assets/sounds/bounce.wav');
-    sonidoGol = loadSound('../assets/sounds/point.wav');
+    fondo = loadImage('fondo1.png');
+    barraJugador = loadImage('barra1.png');
+    barraComputadora = loadImage('barra2.png');
+    bola = loadImage('bola.png');
+    sonidoRebote = loadSound('bounce.wav');
+    sonidoGol = loadSound('point.wav');
 }
 
 function setup() {
