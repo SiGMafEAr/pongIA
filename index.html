@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página Principal</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, black, white); /* Degradado negro a blanco */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+
+        button {
+            background-color: #001FFF; /* Azul rey */
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s ease; /* Transición suave */
+        }
+
+        button:hover {
+            background-color: #0014B3; /* Azul rey más oscuro al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href='chatGPT.html'">Abrir Ping Pong - ChatGPT</button>
+    <button onclick="window.location.href='gemini.html'">Abrir Ping Pong - Gemini</button>
+</body>
+</html>
